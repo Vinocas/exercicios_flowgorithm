@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 10:57:26 "/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDsxMTowOToyOSBBTTsyNDE5"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDsxMToxODoyOCBBTTsyOzI1Mjc="/>
+        <attribute name="edited" value="VXN1w6FyaW87VklOSUNJVVNERUxMOzIwMjItMDItMjg7IjEwOjU3OjI2ICI7MTszMDgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="4.&#9;Escreva um algoritmo para calcular e exibir o volume de uma esfera, considerando a f&#243;rmula, abaixo. "/>
+            <output expression="&quot;Insira o raio da esfera para calcular o volume: &quot;" newline="True"/>
+            <declare name="Res, Ves" type="Real" array="False" size=""/>
+            <input variable="Res"/>
+            <assign variable="Ves" expression="(4/3)*(3.14*Res^3)"/>
+            <output expression="&quot;O volume da esfera &#233; &quot; &amp; Ves &amp; &quot;cm&#179;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

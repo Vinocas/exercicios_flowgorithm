@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-14 10:37:11 AM"/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDswODozNDo1NCBBTTsyNDIx"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDsxMDozNzoxMSBBTTszOzI1MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="1.&#9;Construir um algoritmo que calcule a m&#233;dia aritm&#233;tica entre duas notas."/>
+            <output expression="&quot;Digite a primeira nota:&quot;" newline="True"/>
+            <declare name="nota1, nota2, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a segunda nota:&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <comment text="Processamento"/>
+            <assign variable="media" expression="(nota1+nota2)/2"/>
+            <output expression="&quot;A m&#233;dia das notas inseridas &#233;: &quot; &amp; media" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

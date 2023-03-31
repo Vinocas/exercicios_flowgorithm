@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-15 01:07:29 AM"/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTsxMjo1ODo0MCBBTTsyNDE4"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTswMTowNzoyOSBBTTsxOzI1MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="10.&#9;Uma conta telef&#244;nica &#233; composta dos seguintes custos:&#13;&#10;assinatura: R$ 17,90 por m&#234;s.&#13;&#10;10. Linha telef&#244;nica fixa:   R$ 0,20 por impulso utilizado.&#13;&#10;Chamadas por celular: R$ 0,35 por impulso.&#13;&#10;Construa o algoritmo para calcular o valor mensal das contas telef&#244;nicas de uma pessoa. &#13;&#10;"/>
+            <output expression="&quot;Insira a quantidade de liga&#231;&#245;es feitas pelo telefone fixo no m&#234;s: &quot;" newline="True"/>
+            <declare name="fixo, celular, total" type="Real" array="False" size=""/>
+            <input variable="fixo"/>
+            <output expression="&quot;Insira a quantidade de liga&#231;&#245;es feitas pelo telefone celular no m&#234;s :&quot;" newline="True"/>
+            <input variable="celular"/>
+            <assign variable="total" expression="17.90+(fixo*0.20)+(celular*0.35)"/>
+            <output expression="&quot;O valor total da conta telef&#244;nica no m&#234;s foi de R$&quot; &amp; total &amp;&quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

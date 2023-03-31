@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-14 10:37:30 AM"/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDsxMDowNjowNiBBTTsyNDEw"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDsxMDozNzozMCBBTTsyOzI1MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="3.&#9;Escreva um algoritmo para calcular e exibir a &#225;rea e o per&#237;metro de um ret&#226;ngulo, sendo os lados digitados pelo usu&#225;rio. "/>
+            <declare name="h, b, area, perimetro" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira a altura do ret&#226;ngulo: &quot;" newline="True"/>
+            <input variable="h"/>
+            <output expression="&quot;Insira a base do ret&#226;ngulo: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="area" expression="h*b"/>
+            <assign variable="perimetro" expression="(b*2)+(h*2)"/>
+            <output expression="&quot;A &#225;rea do ret&#226;ngulo &#233; &quot; &amp; area &amp; &quot; e o perimetro &#233; &quot; &amp; perimetro &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-14 10:37:20 AM"/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDswODozNDo1NCBBTTsyNDIx"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDsxMDozNzoyMCBBTTsyOzI1MTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="2.&#9;Construir um algoritmo que calcule a raz&#227;o entre o pre&#231;o do &#225;lcool e o pre&#231;o da gasolina.  raz&#227;o = pre&#231;o do &#225;lcool / pre&#231;o da gasolina)"/>
+            <output expression="&quot;Digite o pre&#231;o do &#225;lcool:&quot;" newline="True"/>
+            <declare name="alcool, gasolina, razao" type="Real" array="False" size=""/>
+            <input variable="alcool"/>
+            <output expression="&quot;Digite o pre&#231;o da gasolina:&quot;" newline="True"/>
+            <input variable="gasolina"/>
+            <comment text="Processamento"/>
+            <assign variable="razao" expression="alcool/gasolina"/>
+            <output expression="&quot;A raz&#227;o entre os dois pre&#231;os &#233;: &quot; &amp; razao" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

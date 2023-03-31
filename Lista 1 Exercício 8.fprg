@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usu&#225;rio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-21 08:19:02 "/>
+        <attribute name="created" value="VXN1w6FyaW87VklOSUNJVVM7MjAyMi0wMi0xNzswMTo1MjoyMSBBTTsyNzQ2"/>
+        <attribute name="edited" value="VXN1w6FyaW87VklOSUNJVVM7MjAyMi0wMi0xNzswMjoxNDozOSBBTTsxOzI4NjI="/>
+        <attribute name="edited" value="VXN1w6FyaW87VklOSUNJVVNERUxMOzIwMjItMDItMjE7IjA4OjE5OjAyICI7MjszMDc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="8.&#9;Construa o algoritmo para calcular e exibir o resultado da seguinte express&#227;o:"/>
+            <output expression="&quot;Insira o valor de A: &quot;" newline="True"/>
+            <declare name="a, b, f, x" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <output expression="&quot;Insira o valor de B: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Insira o valor de F: &quot;" newline="True"/>
+            <input variable="f"/>
+            <assign variable="x" expression="(sqrt((2*b)-(4*a))+(2)*(f^(-3)))/(3)-(2*a)"/>
+            <output expression="&quot;O resultado da equa&#231;&#227;o &#233; &quot; &amp; x" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

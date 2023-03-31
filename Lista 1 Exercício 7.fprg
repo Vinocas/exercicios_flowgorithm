@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-15 12:34:13 AM"/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTsxMjozMDowNSBBTTsyNDA5"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTsxMjozNDoxMyBBTTsxOzI1MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="7.&#9;Escreva um algoritmo para calcular e exibir uma temperatura em graus Fahrenheit a partir de uma entrada de temperatura em graus Celsius. Considera a f&#243;rmula de convers&#227;o, abaixo."/>
+            <output expression="&quot;Insira uma temperatura em graus Celsius para que seja convertida em graus Fahrenheit: &quot;" newline="True"/>
+            <declare name="c, f" type="Real" array="False" size=""/>
+            <input variable="c"/>
+            <assign variable="f" expression="9/5*c+32"/>
+            <output expression="c &amp;&quot;&#186;C &#233; igual a &quot; &amp; f &amp; &quot;&#186;F.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

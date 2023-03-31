@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-15 12:25:44 AM"/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNDsxMToxOTowOCBBTTsyNDE3"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTsxMjoyNTo0NCBBTTsyOzI1MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="5.&#9;Escreva um algoritmo para calcular e exibir a &#225;rea e o comprimento de uma circunfer&#234;ncia, considerando as f&#243;rmulas matem&#225;ticas, abaixo."/>
+            <output expression="&quot;Insira o raio de uma circunfer&#234;ncia para que seja calculada a &#225;rea e o comprimento: &quot;" newline="True"/>
+            <declare name="r, a, c" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="a" expression="3.14*(r^2)"/>
+            <assign variable="c" expression="2*(3.14*r)"/>
+            <output expression="&quot;A &#225;rea do raio inserido &#233; &quot; &amp; a &amp; &quot; e o comprimento &#233; &quot; &amp; c &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

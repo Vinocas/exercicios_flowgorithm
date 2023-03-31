@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-15 12:30:03 AM"/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTsxMjoyNTo1MyBBTTsyNDE2"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTsxMjozMDowMyBBTTsyOzI1MTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="6.&#9;Escreva um algoritmo para calcular e exibir o valor do &#226;ngulo em Radianos ao digitarmos o valor do &#226;ngulo em Graus. Considere a f&#243;rmula, abaixo."/>
+            <output expression="&quot;Insira o valor do &#226;ngulo em graus para que seja exibido em radianos:&quot;" newline="True"/>
+            <declare name="g, r" type="Real" array="False" size=""/>
+            <input variable="g"/>
+            <assign variable="r" expression="(3.14*g)/180"/>
+            <output expression="&quot;O valor do &#226;ngulo inserido em radianos &#233; &quot; &amp; r &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

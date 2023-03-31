@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vinic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-15 01:12:50 AM"/>
+        <attribute name="created" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTsxMjozNDo0MCBBTTsyNDEy"/>
+        <attribute name="edited" value="dmluaWM7VklOSUNJVVM7MjAyMi0wMi0xNTswMToxMjo1MCBBTTszOzI1MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="9.&#9;Um eletricista precisa comprar fio que ir&#225; passar, pelo telhado, por toda a diagonal de uma casa de formato retangular. Como ele n&#227;o tem condi&#231;&#245;es de medir a diagonal com precis&#227;o (ou talvez n&#227;o queira...), a solu&#231;&#227;o alternativa que ele encontrou foi medir os lados da casa, sabendo que a diagonal pode ser calculada com base nos lados pelo Teorema de Pit&#225;goras (a2 = b2 + c2). Considerando que a casa mede 11,5 x 6,3 metros, fa&#231;a um programa que calcule a quantidade m&#237;nima necess&#225;ria de fio a ser comprada, com precis&#227;o at&#233; cent&#237;metros."/>
+            <output expression="&quot;Insira um dos lados da casa: &quot;" newline="True"/>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <input variable="b"/>
+            <output expression="&quot;Insira o outro lado da casa: &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="a" expression="(b^2)+(c^2)"/>
+            <output expression="&quot;O eletricista necessitar&#225; de &quot; &amp; a &amp; &quot;m de fio.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
